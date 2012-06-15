@@ -13,6 +13,7 @@ void testApp::setup(){
     ofSetFrameRate(60);
     ofSetVerticalSync(true);
     
+    ofSetDataPathRoot("../Resources/");
     image.loadImage("gedou.jpg");
     cols = image.width / blockSize;
     rows = image.height / blockSize;
